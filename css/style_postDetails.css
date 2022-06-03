@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: ivory;
+}
+
+.post {
+    border: 3px solid darkcyan;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(to bottom, rgb(180, 221, 180) 0%, rgb(131, 199, 131) 17%, rgb(82, 177, 82) 33%, rgb(0, 138, 0) 67%, rgb(0, 87, 0) 99%, rgb(0, 36, 0) 100%);
+}
+
+.post p{
+    color: aliceblue;
+}
+
+.post h3, .post h4{
+    color: black;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.titleComments{
+    text-align: center;
+}
+
+
+.commentsWrap{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(248,255,232) 0%,rgb(227,245,171) 33%,rgb(183,223,45) 100%);
+}
+
+.commentDiv{
+    width: 19.5%;
+    height: 80%;
+    border: 2px solid indigo;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.commentDiv h3{
+    font-size: 10px;
+}
+
+

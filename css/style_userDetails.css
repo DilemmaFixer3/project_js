@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: burlywood;
+}
+
+.usersDet{
+    background: coral;
+    width: 100%;
+    height: 100%;
+}
+
+.userDet{
+    font-family: "Frank Ruhl Hofshi", cursive;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.elem{
+    margin-left: 50px;
+    background: indianred;
+}
+
+.small{
+    background: firebrick;
+}
+
+.buttPostUser{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    right: 42%;
+}
+
+.titles_wrap{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background: rgba(200,190,239,1);
+    background: linear-gradient(to bottom, rgba(200,190,239,1) 0%, rgba(121,98,233,1) 62%, rgba(73,42,229,1) 100%);
+}
+
+.liTitle{
+    width: 19.22%;
+    margin: 3px;
+    height: 180px;
+    border: 2px solid darkred;
+    /*background: burlywood;*/
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 18px;
+    position: relative;
+}
+
+.link_postDetails{
+    box-sizing: border-box;
+    /*margin-bottom: 5px;*/
+    display: flex;
+    text-align: center;
+    color: purple;
+    position: absolute;
+    top: 37%;
+    right: 9%;
+}
+
+.buttPostUser{
+    height: 40px;
+    font-family: "Noto Serif", cursive;
+    color: maroon;
+    background: beige;
+}
+
+.liTitle:hover{
+    background: linear-gradient(to bottom, rgb(222,239,255) 0%,rgb(152,190,222) 100%);
+}
