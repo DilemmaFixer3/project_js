@@ -41,15 +41,7 @@
 
 
 
-//----------------------Приклад помилки------------------------------------------
-// const err = document.createElement(`div`);
-// err.innerHTML=`<h1>ServerBusy 503</h1>
-//                          <h3>The server cannot receive requests. Repeat the request.</h3>`;
-// err.style.width=`100%`;
-// err.style.justifyContent= `center`;
-// err.style.textAlign = `center`;
-// document.body.append(err);
-//----------------------------------------------------------------------------
+
 
 //
 // На странице user-details.html:
