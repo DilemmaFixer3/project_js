@@ -4,7 +4,7 @@
 // 3 Добавить каждому блоку кнопку/ссылку , при клике на которую происходит переход на
 // страницу user-details.html, которая имеет детальную информацию про объект на который кликнули
 //
-try {
+
     fetch(`https://jsonplaceholder.typicode.com/users`)
         .then(response => response.json())
         .then(value => {
@@ -38,10 +38,7 @@ try {
             }
 
         })
-}catch (e) {
-    e.message=`The server cannot receive requests. Repeat the request.`;
-    console.log(e);
-}
+
 
 
 //----------------------Приклад помилки------------------------------------------

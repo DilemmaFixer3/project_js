@@ -9,7 +9,7 @@
 
 
 
-try {
+
     fetch(`https://jsonplaceholder.typicode.com/users`)
         .then(response => response.json())
         .then(value => {
@@ -91,7 +91,7 @@ try {
                                     }
 
                                 }
-                                userDet.append(titles);
+                                document.body.append(titles);
                             })
                         buttPostUser.disabled = true;
                     }
@@ -100,7 +100,3 @@ try {
             document.body.append(usersDet);
         })
 
-}catch (e) {
-    e.message=`The server cannot receive requests. Repeat the request.`;
-    console.log(e);
-}

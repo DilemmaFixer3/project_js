@@ -8,7 +8,7 @@ const idUser = JSON.parse(localStorage.getItem(`idUser`));
 
 const idPost = JSON.parse(localStorage.getItem(`idPost`));
 
-try {
+
     fetch(`https://jsonplaceholder.typicode.com/users/${idUser}/posts`)
         .then(response => response.json())
         .then(value => {
@@ -51,7 +51,3 @@ try {
                 }
             }
         })
-}catch (e) {
-    e.message=`The server cannot receive requests. Repeat the request.`;
-    console.log(e);
-}
